@@ -368,3 +368,88 @@ Disini saya akan malekukan partisi storage device (harddisk) pada sistem operasi
 
     ![image](https://user-images.githubusercontent.com/74701531/140774725-cd8d8c6a-caba-4c4b-859f-8bdcfc240d83.png)
 
+### Persoalan No 04
+
+Notes : Penjelasan langkah - langkah untuk melakukan partisi pada sistem operasi open source (nilai : 30)
+
+Disini saya akan malekukan partisi storage device (harddisk) pada sistem operasi open source distribusi bebas, yakni Linux dengan distro Ubuntu versi 21.04. Proses partisinya sendiri tidak langsung didalam device yang saya pakai, tetapi akan saya akan melakukan partisi didalam ruang virtual, yakni menggunakan bantuan software tambahan yang biasa disebut VirtualBox. Untuk partisi di Ubuntu sendiri, dapat memakai aplikasi tambahan yang bernama GParted. Untuk langkah-langkahnya akan saya jelaskan dibawah ini.
+
+1. Buka terlebih dahulu VirtualBox
+
+    ![image](https://user-images.githubusercontent.com/74701531/140776189-1d9d9047-6f8e-45a6-a4ba-0d9e91bac5bc.png)
+
+2. Jalankan virtual machine yang akan dibagi partisinya (Linux OS)
+
+    ![image](https://user-images.githubusercontent.com/74701531/140776222-eb64d42c-b871-4d90-914d-b8f72c602b55.png)
+
+3. Masuk kedalam Linux
+
+    ![image](https://user-images.githubusercontent.com/74701531/140776263-76815bb5-a18d-4986-b1ca-6336edadef50.png)
+    ![image](https://user-images.githubusercontent.com/74701531/140776297-20abcb9d-4114-49e8-9533-49d5af59a7f3.png)
+
+
+4. Mencari dan membuka aplikasi Terminal
+
+    ![image](https://user-images.githubusercontent.com/74701531/140776341-82d8ffdf-f822-4d20-947c-08112f7a23d4.png)
+    
+    ![image](https://user-images.githubusercontent.com/74701531/140776392-fc2c2a8f-cb9f-47dd-8be4-47199e3421f1.png)
+
+5. Install GParted dengan perintah sudo apt-get install gparted
+
+    ![image](https://user-images.githubusercontent.com/74701531/140776444-d4bd14fb-0475-4725-9617-309427594017.png)
+
+6. Kemudian masukkan password dari user kalian
+
+    ![image](https://user-images.githubusercontent.com/74701531/140776493-8bc2368d-52b3-48b9-871f-23e0a11ebf4a.png)
+
+7. Lalu, jika ada pertanyaan Y/n, ketikkan huruf Y untuk menyetujui dan klik enter
+
+    ![image](https://user-images.githubusercontent.com/74701531/140776681-b10f4a32-5d59-4569-b104-b4ad6bf1bfa7.png)
+
+8. Setelah aplikasi terinstall, tutup saja Terminalnya. Lalu, cari dan buka aplikasi GParted. Masukkan password kemudian klik tombol Athenticate.
+
+    ![image](https://user-images.githubusercontent.com/74701531/140776820-e67c347c-2968-4a99-9957-370d20747b75.png)
+
+    ![image](https://user-images.githubusercontent.com/74701531/140776851-04fbd2ed-db04-44c5-8580-815ddf214b5f.png)
+    
+    ![image](https://user-images.githubusercontent.com/74701531/140776919-54a6503e-8101-4d8e-ae70-a0297c36080c.png)
+
+9. Karena saya memiliki 2 storage device, kita akan coba pakai partisi satunya. Yaitu di sdb.
+
+    ![image](https://user-images.githubusercontent.com/74701531/140777005-57269f83-c2e9-4cda-bec0-a8e2dd505338.png)
+
+10. Kita akan membuat partisi baru untuk partisi pertama. Dengan cara klik Device kemudian Create Partition Table.
+
+    ![image](https://user-images.githubusercontent.com/74701531/140777060-8cfb77d1-4378-464c-8569-4ce9ebdad268.png)
+
+11. Klik Apply
+
+    ![image](https://user-images.githubusercontent.com/74701531/140777100-cde7c05a-991a-4e6c-9223-8d35f4ef9d79.png)
+
+12. Klik kanan pada unallocated storage, kemudian pilih new
+
+    ![image](https://user-images.githubusercontent.com/74701531/140777162-d4b492d3-fae8-484e-96aa-77ada8bad978.png)
+
+13. Tentukan size barunya di New Size dan pilih jenis partisinya menjadi Extended Partition. Lalu, klik add
+
+    ![image](https://user-images.githubusercontent.com/74701531/140777209-606da7ba-5340-4339-b4e6-fdfca40d09bc.png)
+
+14. Langkah selanjutnya adalah membuat logical partition pada partisi yang telah kita buat tadi. Klik kanan, pilih new lalu add.
+
+    ![image](https://user-images.githubusercontent.com/74701531/140777282-e91732f7-363c-421e-b737-428a2c4244db.png)
+
+15. Kemudian, kita bagi partisi sdb menjadi 80:10 (40 GB untuk partisi pertama dan 10 GB untuk partisi kedua). Dengan cara klik kanan pada sda yang tersedia, lalu pilih resize/Move.
+
+    ![image](https://user-images.githubusercontent.com/74701531/140777363-93839c9e-83a3-4605-abc0-947b9d65ccd8.png)
+
+16. Isi new size dengan angka 40 GB (mengubah ukuran partisi utama, dari 50 GB ke 40 GB) . Lalu klik Resize / Move
+
+    ![image](https://user-images.githubusercontent.com/74701531/140777486-2d19507b-d22c-4bfe-a8d3-70d124c7de48.png)
+
+17. Langkah terakhir, kita akan membuat partisi kedua pada unallocated storage yang telah kita buat tadi. Dengan cara klik kanan new, lalu pilih add
+
+    ![image](https://user-images.githubusercontent.com/74701531/140777546-8cba5d05-3dac-4ae1-ab78-bdf8a48eb9f2.png)
+
+18. Selesai 
+
+    ![image](https://user-images.githubusercontent.com/74701531/140777601-d797a324-2307-47ad-9565-8f440b99b319.png)
