@@ -1,4 +1,4 @@
-## Selamat Datang di Tugas UTS Praktikum Sistem Komputer
+## Tugas UTS Praktikum Sistem Komputer
 
 Pada artikel kali ini, saya akan membahas Tugas UTS dari Mata Kuliah Praktikum Sistem Komputer dengan dosen pengampu saya, Pak Johan Ericka Wahyu Prakasa, M.Kom.Sebelum kita membahas persoalan dari tugas UTS ini, akan saya jelaskan terlebih dahulu apa itu mata kuliah Praktikum Sistem Komputer.
 
