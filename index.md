@@ -208,7 +208,7 @@ Disini saya akan memasang sistem operasi proprietary versi bebas, yakni Windows 
 
 Notes : Penjelasan langkah - langkah untuk melakukan instalasi sistem operasi open source distribusi bebas (nilai : 20)
 
-Disini saya akan memasang sistem operasi open source distribusi bebas, yakni Linux dengan distro Ubintu. Pemasangannya sendiri tidak langsung didalam device yang saya pakai, tetapi akan saya pasang didalam ruang virtual, yakni menggunakan bantuan software tambahan yang biasa disebut VirtualBox.
+Disini saya akan memasang sistem operasi open source distribusi bebas, yakni Linux dengan distro Ubuntu versi 21.04. Pemasangannya sendiri tidak langsung didalam device yang saya pakai, tetapi akan saya pasang didalam ruang virtual, yakni menggunakan bantuan software tambahan yang biasa disebut VirtualBox.
 
 1. Membuat Virtual Machine Baru dan Memasukkan file ISO kedalam Virtual Machine tersebut
 
@@ -216,4 +216,81 @@ Disini saya akan memasang sistem operasi open source distribusi bebas, yakni Lin
 
     Tahap awal kita melakukan instalasi distro linux adalah membuat virtual machine baru dan memasukkan file ISO salah satu distro linux yang kita download kedalam Virtudal Machine tersebut. ISO disini dapat kita anggap sebuah DVD.
     
-2. 
+2. Proses Checking Disk
+
+    ![image](https://user-images.githubusercontent.com/74701531/140767308-e659a79c-8082-4c06-b815-24e358155264.png)
+
+    Pada tahap ini kita disuruh menunggu beberapa saat. Virtual Machine / Device masih membaca / mengecek semua data yang ada didalam file ISO yang telah kita masukkan tadi.
+    
+3. Tampilan Awal Instalasi Linux Ubuntu
+
+    ![image](https://user-images.githubusercontent.com/74701531/140767396-d0af20d0-a022-4872-b157-404196b06317.png)
+
+    Pada tahap ini kita disuruh memilih bahasa yang akan kita gunakan sewaktu instalasi dan memilih apakah hanya ingin mencoba ubuntu atau install penuh ubuntu. Klik Install untuk memulai instalasi penuh.
+    
+4. Memilih Layout Keyboard
+
+    ![image](https://user-images.githubusercontent.com/74701531/140767468-2e19d783-a83c-4cc2-a981-71d1a0d8f9a6.png)
+
+    Disini kita disuruh untuk memilih layout dari keyboard kita nanti. Selain bisa memilih tatanan keyboard yang telah disediakan, kita juga bisa kustomisasi layout keyboardnya. Pilih US kemudian klik tombol Continue.
+    
+5. Updates and Other Software
+
+    ![image](https://user-images.githubusercontent.com/74701531/140767543-ad7fbebd-5547-4dff-a8c4-b7364ec2c17c.png)
+
+    Pada tahap ini kita disuruh memilih mode instalasi, apakah normal installation (paket lengkap dari UBUNTU) atau minimal installation (Web Browser dan basic utilities). Kita juga dapat mengaktifkan updates ketika install UBUNTU dan juga memakai software pihak ketiga. Disini saya menggunakan minimal installation dengan updates dinyalakan. Klik tombol Continue.
+    
+6. Installation Type
+
+    ![image](https://user-images.githubusercontent.com/74701531/140767623-0b225126-da26-4e9f-9b0b-72a06bbf2d91.png)
+
+    Pada tahap ini kita disuruh memilih, apakah install ubuntu langsung di drive ini sekarang dan membuang apapun di drive atau membuat partisi baru. Disini saya menggunakan Erase disk dan Install Ubuntu. Klik tombol Install Now.
+    
+7. Pop Up Alert
+
+    ![image](https://user-images.githubusercontent.com/74701531/140767882-b93fc8b2-8ec0-40dc-b530-7f647d9a3ed7.png)
+
+    Jika kita memilih Erase Disk tadi, maka akan keluar pop up seperti gambar disamping. Klik tombol Continue.
+    
+8. Pengaturan Lokasi
+
+    ![image](https://user-images.githubusercontent.com/74701531/140767939-c2f6a606-4e11-41a0-b8f2-b7c2bf533a56.png)
+
+    Pada tahap ini, kita disuruh memilih lokasi kita saat ini. Hal ini untuk memudahkan pengaturan waktu, lokasi, dll nanti. Klik tombol Continue.
+    
+9. Data diri
+
+    ![image](https://user-images.githubusercontent.com/74701531/140768012-3eac9888-9856-4d46-a9ef-682d0c2c4820.png)
+
+    Isi data diri kalian disini. Nama lengkap, nama komputer, username dan password. Jika kalian ingin login otomatis kedalam os ini nanti, cukup centang log in automatically, jika ingin mengunci device os kalian, centang Require my password to login. Klik Continue.
+    
+10. Instalasi
+
+    ![image](https://user-images.githubusercontent.com/74701531/140768097-43b2c54e-37d8-4db7-870c-521727d12ae3.png)
+
+    Tampilan ini adalah tampilan proses instalasi dari linux Ubuntu. Tunggu hingga selesai.
+    
+11. Instalasi Selesai
+
+    ![image](https://user-images.githubusercontent.com/74701531/140768180-b9cb70b9-3c72-4b3f-b3e7-c0743e056ee3.png)
+
+    Setelah instalasi selesai, kita disuruh untuk restart device kita. Klik tombol Restart Now.
+    
+12. Remove Installation CD / DVD
+
+    ![image](https://user-images.githubusercontent.com/74701531/140768243-78f0d207-ae51-4bca-9f3b-81b7dd1587ae.png)
+
+    Pada tahap ini kita disuruh untuk melepas file ISO yang sbeelumnya kita masukkan. Lalu klik enter.
+    
+13. Login
+
+    ![image](https://user-images.githubusercontent.com/74701531/140768322-01d78da3-5b49-465d-b2d5-baf85bb6e9ae.png)
+    
+    Buka lockscreen dengan klik saja akun yang ingin dimasuki lalu isi password dengan password yang telah dibuat saat instalasi.
+    
+14. Tampilan Awal Linux Ubuntu
+
+    ![image](https://user-images.githubusercontent.com/74701531/140768592-941060b3-b350-41e8-8e9d-5407a35502b1.png)
+
+    SELESAI
+    
