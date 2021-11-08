@@ -31,7 +31,15 @@ Apabila ditemukan kemiripan dengan sumber yang ada di internet (lebih dari 20% )
 ```
 
 Sebelum memasuki ke pembahasan tiap poin permasalahan, ada baiknya kita mengetahui terlebih dahulu setiap istilah yang ada didalam persoalan diatas.
---list
+
+1. Sistem Operasi
+Sistem Operasi adalah perangkat lunak atau software yang memiliki peranan penting sebagai pengatur sumber daya utama dari keseluruhan sistem terutama antara hardware dengan software agar bisa digunakan. Bagaimana sistem akan berjalan, bagaimana struktur dari proses hardware dilakukan, bagaimana agar komputer dapat melakukan boot, adalah tugas dari Sistem Operasi ini.
+
+2. Proprietary versi bebas
+Proprietary berasal dari kata property yang berarti suatu benda. Istilah proprietary ini lebih merujuk kepada suatu benda yang dimiliki oleh suatu pemilik.  Lalu apa yang dimaksud dengan sistem operasi jenis Proprietary ini? Sistem operasi Proprietary  versi bebas adalah suatu sistem operasi yang perkembangan dan kepemilikannya dimiliki oleh suatu organisasi atau perusahaan atau bahkan oleh seseorang. Yang termmasuk kedalam sistem operasi jenis ini adalah Windows.
+
+2. Open Source distribusi bebas
+Open Source disini berarti semua source codenya dapat dikelola maupun dimiliki oleh orang atau kelompok lain tanpa perlu membayar. Kita snediri dapat memiliki sistem operasi yang kita buat sendiri dari mengembangkan sistem operasi jenis ini. Namun, untuk hak cipta sistem operasi jenis ini akan membutuhkan biaya yang tidak murah. Yang termasuk kedalam sistem operasi open source ini ialah Linux.
 
 ### Persoalan No 01
 
@@ -39,6 +47,9 @@ Notes : Penjelasan langkah - langkah untuk melakukan instalasi sistem operasi pr
 
 Disini saya akan memasang sistem operasi proprietary versi bebas, yakni Windows 10. Pemasangannya sendiri tidak langsung didalam device yang saya pakai, tetapi akan saya pasang didalam ruang virtual, yakni menggunakan bantuan software tambahan yang biasa disebut VirtualBox.
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+1. Membuat Virtual Machine Baru dan Memasukkan file ISO kedalam Virtual Machine tersebut
+Tahap awal kita melakukan instalasi Windows 10 adalah membuat virtual machine baru dan memasukkan file ISO dari sistem operasi Windows yang kita download kedalam Virtudal Machine tersebut. ISO disini dapat kita anggap sebuah DVD
+2. Pemilihan bahasa sewaktu pemasangan, pengaturan waktu dan mata uang dan pengaturan bahasa dari keyboard atau inputan
+Pada tahap ini kita disuruh untuk mengatur dan memilih beberapa hal dasar yang terdiri dari Pemilihan bahasa sewaktu pemasangan, pengaturan waktu dan mata uang dan pengaturan bahasa dari keyboard atau inputan.
+3. Pengambilan Keputusan Pemasangan
+Pada proses kali ini, kita disuruh untuk menekan tombol Install Now apabila ingin memasang Windows 10 di device tersebut sekarang.
