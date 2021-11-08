@@ -50,15 +50,18 @@ Notes : Penjelasan langkah - langkah untuk melakukan instalasi sistem operasi pr
 
 Disini saya akan memasang sistem operasi proprietary versi bebas, yakni Windows 10. Pemasangannya sendiri tidak langsung didalam device yang saya pakai, tetapi akan saya pasang didalam ruang virtual, yakni menggunakan bantuan software tambahan yang biasa disebut VirtualBox.
 
-1. Membuat Virtual Machine Baru dan Memasukkan file ISO kedalam Virtual Machine tersebut
+    1 Membuat Virtual Machine Baru dan Memasukkan file ISO kedalam Virtual Machine tersebut
 
     ![W01](https://user-images.githubusercontent.com/74701531/140753169-13dc3d90-dc39-4c25-87fd-cfb481f8c75f.png)
 
 Tahap awal kita melakukan instalasi Windows 10 adalah membuat virtual machine baru dan memasukkan file ISO dari sistem operasi Windows yang kita download kedalam Virtudal Machine tersebut. ISO disini dapat kita anggap sebuah DVD
-2. Pemilihan bahasa sewaktu pemasangan, pengaturan waktu dan mata uang dan pengaturan bahasa dari keyboard atau inputan
+    2 Pemilihan bahasa sewaktu pemasangan, pengaturan waktu dan mata uang dan pengaturan bahasa dari keyboard atau inputan
 
     ![W02](https://user-images.githubusercontent.com/74701531/140753803-d40f3c69-6574-4541-ab91-e879ef4c6e43.png)
 
 Pada tahap ini kita disuruh untuk mengatur dan memilih beberapa hal dasar yang terdiri dari Pemilihan bahasa sewaktu pemasangan, pengaturan waktu dan mata uang dan pengaturan bahasa dari keyboard atau inputan.
+
+    ![W03](https://user-images.githubusercontent.com/74701531/140754502-c2acf530-4fad-40de-846e-c34f58b1d4cc.png)
+
 3. Pengambilan Keputusan Pemasangan
 Pada proses kali ini, kita disuruh untuk menekan tombol Install Now apabila ingin memasang Windows 10 di device tersebut sekarang.
