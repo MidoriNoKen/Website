@@ -20,11 +20,8 @@ Kerjakan Ujian Tengah Semester ini secara mandiri.
 Buat blog yang berisi tentang :
 
 1. Penjelasan langkah - langkah untuk melakukan instalasi sistem operasi proprietary versi bebas (nilai : 20)
-
 2. Penjelasan langkah - langkah untuk melakukan instalasi sistem operasi open source distribusi bebas (nilai : 20)
-
 3. Penjelasan langkah - langkah untuk melakukan partisi harddisk pada sistem operasi proprietary (nilai : 30)
-
 4. Penjelasan langkah - langkah untuk melakukan partisi pada sistem operasi open source (nilai : 30)
 
 Catatan :
