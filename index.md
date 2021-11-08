@@ -52,7 +52,7 @@ Disini saya akan memasang sistem operasi proprietary versi bebas, yakni Windows 
 
 1. Membuat Virtual Machine Baru dan Memasukkan file ISO kedalam Virtual Machine tersebut
 
-![W01](https://user-images.githubusercontent.com/74701531/140752626-12b31f99-ca64-4bca-ac30-3000bdcb8f3b.png)
+    ![W01](https://user-images.githubusercontent.com/74701531/140752626-12b31f99-ca64-4bca-ac30-3000bdcb8f3b.png)
 
 Tahap awal kita melakukan instalasi Windows 10 adalah membuat virtual machine baru dan memasukkan file ISO dari sistem operasi Windows yang kita download kedalam Virtudal Machine tersebut. ISO disini dapat kita anggap sebuah DVD
 2. Pemilihan bahasa sewaktu pemasangan, pengaturan waktu dan mata uang dan pengaturan bahasa dari keyboard atau inputan
