@@ -212,7 +212,7 @@ Disini saya akan memasang sistem operasi open source distribusi bebas, yakni Lin
 
 1. Membuat Virtual Machine Baru dan Memasukkan file ISO kedalam Virtual Machine tersebut
 
-    ![image](https://user-images.githubusercontent.com/74701531/140766619-ad902755-7e21-4e7d-b4a6-e703f70dfea8.png)
+    ![image](https://user-images.githubusercontent.com/74701531/140766819-9937676b-c393-4e5e-970f-e52c4a7bdafb.png)
 
     Tahap awal kita melakukan instalasi distro linux adalah membuat virtual machine baru dan memasukkan file ISO salah satu distro linux yang kita download kedalam Virtudal Machine tersebut. ISO disini dapat kita anggap sebuah DVD.
     
