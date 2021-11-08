@@ -1,6 +1,10 @@
-## Welcome to GitHub Pages
+## Selamat Datang di Tugas UTS Praktikum Sistem Komputer
 
-You can use the [editor on GitHub](https://github.com/MidoriNoKen/Website/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Pada artikel kali ini, saya akan membahas Tugas UTS dari Mata Kuliah Praktikum Sistem Komputer dengan dosen pengampu saya, Pak Johan Ericka Wahyu Prakasa, M.Kom.Sebelum kita membahas persoalan dari tugas UTS ini, akan saya jelaskan terlebih dahulu apa itu mata kuliah Praktikum Sistem Komputer.
+
+## Praktikum Sistem Komputer
+
+Praktikum Sistem Komputer ialah salah satu mata kuliah di prodi Teknik Informatika Universitas Islam Negeri Maulana Malik Ibrahim, Malang yang membahas tentang cara kerja sebuah komputer. Apa saja hardware atau komponen penting didalam komputer, bagaimana komputer dapat berjalan, hingga cara kerja tiap komponennya dijelaskan didalam mata kuliah ini. Operating System, komponen input, proccess dan output juga dibahas didalam modul mata kuliah Praktikum SIstem Komputer ini.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
