@@ -366,5 +366,5 @@ Disini saya akan malekukan partisi storage device (harddisk) pada sistem operasi
 
 15. Selesai. Partisi telah dibuat.
 
-    ![Uploading image.png…]()
+    ![image](https://user-images.githubusercontent.com/74701531/140774725-cd8d8c6a-caba-4c4b-859f-8bdcfc240d83.png)
 
