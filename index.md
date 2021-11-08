@@ -28,27 +28,16 @@ URL blog di paste pada Submission UTS di situs E-Learning UIN Maliki Malang.
 Apabila ditemukan kemiripan dengan tugas mahasiswa lain ( lebih dari 20% ) maka nilai akan di bagi rata
 
 Apabila ditemukan kemiripan dengan sumber yang ada di internet (lebih dari 20% ) maka nilai akan dikurangi 50%
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Sebelum memasuki ke pembahasan tiap poin permasalahan, ada baiknya kita mengetahui terlebih dahulu setiap istilah yang ada didalam persoalan diatas.
+--list
 
-### Jekyll Themes
+### Persoalan No 01
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/MidoriNoKen/Website/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Notes : Penjelasan langkah - langkah untuk melakukan instalasi sistem operasi proprietary versi bebas (nilai : 20)
+
+Disini saya akan memasang sistem operasi proprietary versi bebas, yakni Windows 10. Pemasangannya sendiri tidak langsung didalam device yang saya pakai, tetapi akan saya pasang didalam ruang virtual, yakni menggunakan bantuan software tambahan yang biasa disebut VirtualBox.
 
 ### Support or Contact
 
