@@ -294,3 +294,77 @@ Disini saya akan memasang sistem operasi open source distribusi bebas, yakni Lin
 
     SELESAI
     
+### Persoalan No 03
+
+Notes : Penjelasan langkah - langkah untuk melakukan partisi harddisk pada sistem operasi proprietary (nilai : 30)
+
+Disini saya akan malekukan partisi storage device (harddisk) pada sistem operasi proprietary versi bebas, yakni Windows 10. Proses partisinya sendiri tidak langsung didalam device yang saya pakai, tetapi akan saya akan melakukan partisi didalam ruang virtual, yakni menggunakan bantuan software tambahan yang biasa disebut VirtualBox. Untuk partisi di Windows sendiri, dapat memakai aplikasi bawaan dari Windows yang kemudian akan saya sebutkan langkah-langkahnya dibawah ini.
+
+1. Buka terlebih dahulu VirtualBox
+
+    ![image](https://user-images.githubusercontent.com/74701531/140772400-e5670da0-8a3d-4d1c-863a-a96eb3746188.png)
+
+2. Jalankan virtual machine yang akan dibagi partisinya (Windows OS)
+
+    ![image](https://user-images.githubusercontent.com/74701531/140773308-a6e2102b-4037-41b7-a203-8fc22748a065.png)
+
+3. Masuk kedalam Windows
+
+    ![image](https://user-images.githubusercontent.com/74701531/140773350-b8d89fe7-6ab1-40a7-b65d-734114fcacb2.png)
+    
+    ![image](https://user-images.githubusercontent.com/74701531/140773377-cd983dd5-cb22-49f3-bbc3-b5d7a19922ac.png)
+
+4. Buka File Explorer
+
+    ![image](https://user-images.githubusercontent.com/74701531/140773418-03c7bdee-6a72-4b6c-ad15-6480b26234d9.png)
+
+5. Pilih “computer” pada tab library diatas, kemudian pilih “manage”
+
+    ![image](https://user-images.githubusercontent.com/74701531/140773723-31d58790-ff0a-4ed4-9b38-34f8e7010b81.png)
+
+6. Kemudian pilih “Disk Management”
+
+    ![image](https://user-images.githubusercontent.com/74701531/140773890-96a57e42-aee9-4b58-88b9-bb41c3527e26.png)
+
+7. Kemudian klik kanan pada partisi C, lalu pilih “Shrink Volume”
+
+    ![image](https://user-images.githubusercontent.com/74701531/140774014-99dca3e4-a17a-4879-8356-4129226c38f0.png)
+
+8. Tentukan ukuran yang akan dibagi, lalu klik tombol “Shrink” dan tunggu beberapa saat (80% dari 50GB adalah 40GB, jadi partisi C 30GB dan partisi D adalah 10GB)
+
+    ![image](https://user-images.githubusercontent.com/74701531/140774063-95a72f47-8054-4d5a-80a6-b0097d70d610.png)
+    
+    Catatan :
+-	Total size before shrink in MB 		: Ukuran sebelum dibagi (C)
+-	Size of Available shrink space in MB 	: Ukuran maksimal yang tersedia untuk dibagi
+-	Enter the amount of space to shrink ...	: Ukuran partisi yang kita inginkan untuk dibagi (D)
+-	Total size after shrink in MB		: Ukuran setelah dibagi (C)
+
+9. Kemudian klik kanan pada “unallocated partition” (partisi kosong yang telah kita buat), selanjutnya klik “New Simple Volume”
+
+    ![image](https://user-images.githubusercontent.com/74701531/140774239-42a90717-a8b4-423e-b55a-e66ff05f069b.png)
+
+10. Kemudian klik "next”
+
+    ![image](https://user-images.githubusercontent.com/74701531/140774299-fb1346d3-f921-47d1-a614-7fdeea1b8a25.png)
+
+11. Kemudian tentukan, berapa ukuran partisi yang akan kita buat dari partisi kosong tersebut. Karena kita akan memakai semuanya (10GB), maka klik tombol “next” saja
+
+    ![image](https://user-images.githubusercontent.com/74701531/140774369-19475c47-e46d-43c0-b210-a459d470f71b.png)
+
+12. Kemudian, kita pilih drive letter nya. Karena kita akan menggunakaan drive letter D, maka pilih karakter D. Lalu klik tombol “Next”
+
+    ![image](https://user-images.githubusercontent.com/74701531/140774411-ec092b9f-48a3-4bce-9c38-384e7cf61ffb.png)
+
+13. Kemudian pilih jenis sistem filenya. Kita gunakan NTFS. Pada “volume label” kita berikan nama dari partisi yang akan kita buat. Lalu klik tombol “Next”
+
+    ![image](https://user-images.githubusercontent.com/74701531/140774452-e99449bd-88a8-4653-aca5-2da31cabc446.png)
+
+14. Lalu, klik tombol “Finish” untuk memulai pembuatan partisi. Kemudian tunggu beberapa saat hingga proses pembuatan selesai.
+
+    ![image](https://user-images.githubusercontent.com/74701531/140774492-cb82140a-da81-4647-a62b-a05d6a297ceb.png)
+
+15. Selesai. Partisi telah dibuat.
+
+    ![Uploading image.png…]()
+
