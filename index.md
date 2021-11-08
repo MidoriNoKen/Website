@@ -6,14 +6,28 @@ Pada artikel kali ini, saya akan membahas Tugas UTS dari Mata Kuliah Praktikum S
 
 Praktikum Sistem Komputer ialah salah satu mata kuliah di prodi Teknik Informatika Universitas Islam Negeri Maulana Malik Ibrahim, Malang yang membahas tentang cara kerja sebuah komputer. Apa saja hardware atau komponen penting didalam komputer, bagaimana komputer dapat berjalan, hingga cara kerja tiap komponennya dijelaskan didalam mata kuliah ini. Operating System, komponen input, proccess dan output juga dibahas didalam modul mata kuliah Praktikum SIstem Komputer ini.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Tugas Ujian Tengah Semester
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Ada beberapa persoalan yang harus diselesaikan didalam tugas UTS Praktikum Sistem Komputer kali ini. Berikut ini persoalan, ketentuan dan keterangan serta aturan yang diberikan.
 
 ```markdown
-Syntax highlighted code block
+Kerjakan Ujian Tengah Semester ini secara mandiri.
+
+Buat blog yang berisi tentang :
+
+1. Penjelasan langkah - langkah untuk melakukan instalasi sistem operasi proprietary versi bebas (nilai : 20)
+
+2. Penjelasan langkah - langkah untuk melakukan instalasi sistem operasi open source distribusi bebas (nilai : 20)
+
+3. Penjelasan langkah - langkah untuk melakukan partisi harddisk pada sistem operasi proprietary (nilai : 30)
+
+4. Penjelasan langkah - langkah untuk melakukan partisi pada sistem operasi open source (nilai : 30)
+
+URL blog di paste pada Submission UTS di situs E-Learning UIN Maliki Malang.
+
+Apabila ditemukan kemiripan dengan tugas mahasiswa lain ( lebih dari 20% ) maka nilai akan di bagi rata
+
+Apabila ditemukan kemiripan dengan sumber yang ada di internet (lebih dari 20% ) maka nilai akan dikurangi 50%
 
 # Header 1
 ## Header 2
