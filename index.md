@@ -23,10 +23,11 @@ Buat blog yang berisi tentang :
 
 4. Penjelasan langkah - langkah untuk melakukan partisi pada sistem operasi open source (nilai : 30)
 
+Catatan :
 URL blog di paste pada Submission UTS di situs E-Learning UIN Maliki Malang.
 
+Aturan  :
 Apabila ditemukan kemiripan dengan tugas mahasiswa lain ( lebih dari 20% ) maka nilai akan di bagi rata
-
 Apabila ditemukan kemiripan dengan sumber yang ada di internet (lebih dari 20% ) maka nilai akan dikurangi 50%
 ```
 
@@ -41,6 +42,8 @@ Proprietary berasal dari kata property yang berarti suatu benda. Istilah proprie
 2. Open Source distribusi bebas
 Open Source disini berarti semua source codenya dapat dikelola maupun dimiliki oleh orang atau kelompok lain tanpa perlu membayar. Kita snediri dapat memiliki sistem operasi yang kita buat sendiri dari mengembangkan sistem operasi jenis ini. Namun, untuk hak cipta sistem operasi jenis ini akan membutuhkan biaya yang tidak murah. Yang termasuk kedalam sistem operasi open source ini ialah Linux.
 
+Karena istilah yang dipilih telah dipahami, kita akan masuk ke pembahasan tiap poin permasalahan.
+
 ### Persoalan No 01
 
 Notes : Penjelasan langkah - langkah untuk melakukan instalasi sistem operasi proprietary versi bebas (nilai : 20)
@@ -48,6 +51,7 @@ Notes : Penjelasan langkah - langkah untuk melakukan instalasi sistem operasi pr
 Disini saya akan memasang sistem operasi proprietary versi bebas, yakni Windows 10. Pemasangannya sendiri tidak langsung didalam device yang saya pakai, tetapi akan saya pasang didalam ruang virtual, yakni menggunakan bantuan software tambahan yang biasa disebut VirtualBox.
 
 1. Membuat Virtual Machine Baru dan Memasukkan file ISO kedalam Virtual Machine tersebut
+![W01](https://user-images.githubusercontent.com/74701531/140752626-12b31f99-ca64-4bca-ac30-3000bdcb8f3b.png)
 Tahap awal kita melakukan instalasi Windows 10 adalah membuat virtual machine baru dan memasukkan file ISO dari sistem operasi Windows yang kita download kedalam Virtudal Machine tersebut. ISO disini dapat kita anggap sebuah DVD
 2. Pemilihan bahasa sewaktu pemasangan, pengaturan waktu dan mata uang dan pengaturan bahasa dari keyboard atau inputan
 Pada tahap ini kita disuruh untuk mengatur dan memilih beberapa hal dasar yang terdiri dari Pemilihan bahasa sewaktu pemasangan, pengaturan waktu dan mata uang dan pengaturan bahasa dari keyboard atau inputan.
