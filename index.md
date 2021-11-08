@@ -203,3 +203,17 @@ Disini saya akan memasang sistem operasi proprietary versi bebas, yakni Windows 
     ![image](https://user-images.githubusercontent.com/74701531/140764475-57219bcf-c96e-45eb-80e6-7ef32397b00f.png)
 
     Dan inilah tampilan awal Windows 10 setelah di pasang. SELESAI
+    
+### Persoalan No 02
+
+Notes : Penjelasan langkah - langkah untuk melakukan instalasi sistem operasi open source distribusi bebas (nilai : 20)
+
+Disini saya akan memasang sistem operasi open source distribusi bebas, yakni Linux dengan distro Ubintu. Pemasangannya sendiri tidak langsung didalam device yang saya pakai, tetapi akan saya pasang didalam ruang virtual, yakni menggunakan bantuan software tambahan yang biasa disebut VirtualBox.
+
+1. Membuat Virtual Machine Baru dan Memasukkan file ISO kedalam Virtual Machine tersebut
+
+    ![image](https://user-images.githubusercontent.com/74701531/140765963-1a45e858-488b-4a18-aa2f-e3a87a7b9552.png)
+
+    Tahap awal kita melakukan instalasi distro linux adalah membuat virtual machine baru dan memasukkan file ISO salah satu distro linux yang kita download kedalam Virtudal Machine tersebut. ISO disini dapat kita anggap sebuah DVD.
+    
+2. 
