@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Midori's Blog</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="biodata.css">
+</head>
+<body>
+	
+	<!-- bagian header template -->
+	<header>
+		<h1 class="title">Midori's Blog</h1>
+		<p class="description">Catatan Aktivitas Personal Taufik Ardiansyah Putra.</p>
+	</header>
+	<!-- akhir bagian header template -->
+	<div class="wrap">
+		<div class="one-side">
+			<!-- bagian menu -->
+			<nav class="menu">
+				<ul>
+					<li>
+						<a href="index.html">Beranda</a>
+					</li>
+					<li>
+						<a href="catatan.html">Catatan</a>
+					</li>
+					<li>
+						<a href="proyek.html">Proyek</a>
+					</li>
+					<li>
+						<a href="galeri.html">Galeri</a>
+					</li>
+					<li>
+						<a href="kontak.html">Kontak</a>
+					</li>
+				</ul>
+			</nav>
+			<!-- akhir bagian menu -->
+	
+			<!-- bagian konten Blog -->
+			<div class="blog">
+				<div class="blog-style">
+					<div class="post-info">
+						Di Posting Oleh <b>Taufik Ardiansyah Putra</b>
+					</div>
+					<img class="img-blog" src="img/Cisco Packet Tracer.png">
+					<h1> Proyek VLAN dengan Cisco Packet Tracer </h1>
+					<hr>
+                    <h2>Apa itu VLAN ?</h2>
+					<p>
+                        VLAN adalah LAN yang tidak nyata, seolah-olah kita berada pada jaringan yang berbeda sementara masih dalam switch yang sama. Misalnya pada port nomor 1-5 dengan port 6-10 bisa menggunakan network yang berbeda dan tidak bisa saling terhubung walau dalam satu switch, pengelompokan port tersebut bisa di beri sebuah identitas VLAN.
+                    </p>
+                    <p>
+                        VLAN membagi satu broadcast domain menjadi banyak, sehingga dalam satu buah switch bisa terdiri dari beberapa network.Vlan merupakan fitur yang hanya dimiliki oleh switch mode manageable, contohnya yang cisco miliki yang biasa orang menyebutnya 'catalys".
+                    </p>
+                    <p>
+                        Pada switch umum atau un-manageable, port hanya dapat digunakan untuk koneksi sesama network dan tidak mendukung fitur VLAN.
+                    </p>
+
+                    <h2>Apa Manfaat VLAN pada jaringan ?</h2>
+                    <p>
+                        Manfaat VLAN adalah mampu untuk membuat pengiriman packet data lebih ter-arah, sehingga lalu lintas data lebih efektif dan stabil. Selain itu dengan VLAN pengguna jaringan tertentu tidak dapat mengakses pada jaringan lain yang dimungkinkan timbulkan penyalahgunaan.
+                    </p>
+                    <p>
+                        Untuk selengkapnya tentang VLAN sobat dapat membaca artikel saya tentang Memahami Konsep VLAN, Manfaat dan Fitur VLAN Pada Jaringan. Sebelum implementasi pada perangkat nyata saya akan mencoba pada aplikasi Cisco Packet Tracer terlebih dahulu.
+                    </p>
+                    <h2>
+                        Cara Konfigurasi VLAN di Cisco Packet Tracer
+                    </h2>
+                    <p>
+                        Sebelum ke tahapan konfigurasi, perlu di buatkan sebuah topologi dan tabel perencanaan, agar sobat dapat mudah dan terarah dalam mengerjakannya. Berikut adalah topologi dan tabel perencanaan yang akan kia buat.
+                    </p>
+                    <img class="img-content" src="img/Topologi VLAN di Cisco Packet Tracer.jpg" alt="Topologi VLAN di Cisco Packet Tracer">
+                    <p>Keterangan dari topologi di atas</p>
+                    <ul>
+                        <li>
+                            VLAN 10 terdiri dari port 1, 2, 3, 4 dan 5
+                        </li>
+                        <li>
+                            VLAN 20 terdiri dari port 6, 7, 8, 9 dan 10
+                        </li>
+                        <li>
+                            Jenis kabel yang digunakan dari PC ke Switch adalah Straight
+                        </li>
+                    </ul>
+                    <p>
+                        Lihat pada tabel perencanaan di bawah ini.
+                    </p>
+                    <img class="img-content" src="img/Tabel Perencanaan Pekerjaan.png" alt="Tabel Perencanaan Pekerjaan">
+                    <p>Berikut langkah-langkah pengerjaaanya</p>
+                    <p>
+                        <b>(Ke-1)</b> - Klik pada Switch masuk ke Tab CLI ketikan perintah di bawah untuk melihat kondisi VLAN yang ada di switch (yang tercetak tebal itu yang di ketikan).
+                    </p>
+                    <img class="img-content" src="img/Tabel Perhitungan.png" alt="Tabel Perhitungan">
+                    <p>
+                        <b>(Ke-2)</b> - Lanjutkan untuk membuat VLAN 10 dengan nama Lab1 dan VLAN 20 dengan nama LAB2
+                    </p>
+                    <img class="img-content" src="img/Tabel Perhitungan-1.png" alt="Tabel Perhitungan">
+                    <p>
+                        <b>(Ke-3)</b> - Sekarang sobat cek dengan perintah show vlan dan akan terdapat perbedaan dengan tampilan sebelumnya, karena sobat sudah buat 2 VLAN yakni VLAN 10 dan VLAN 20 yang masing-masing menggunakan 5 port pada switch. Berikut tampilan gambar di bawah ini.
+                    </p>
+                    <img class="img-content" src="img/Tampilan VLAN pada CLI.png" alt="Tampilan VLAN pada CLI">
+                    <p>
+                        <b>(Ke-4)</b> - Sampai disini sobat sudah melakukan konfigurasi VLAN dengan baik, selanjutnya kita setting PC dengan memberikan IP address seperti list di bawah ini :
+                    </p>
+                    <p>PC0<br>IP address : 10.10.10.1<br>Netmask : 255.0.0.0</p>
+                    <p>PC1<br>IP address : 10.10.10.2<br>Netmask : 255.0.0.0</p>
+                    <p>PC2<br>IP address : 10.10.10.3<br>Netmask : 255.0.0.0</p>
+                    <p>PC3<br>IP address : 10.10.10.4<br>Netmask : 255.0.0.0</p>
+                    <img class="img-content" src="img/Memasukkan IP pada PC.png" alt="Memasukkan IP pada PC">
+                    <p>
+                        <b>(Ke-5)</b> - Setelah semua PC di setting atau diberikan IP address, saatnya melakukan pengecekan. Dengan menggunakan perintah ping. Kita akan cek dari PC satu VLAN dengan PC antar VLAN.
+                    </p>
+                    <img class="img-content" src="img/Pengecekan dengan Perintah Ping.png" alt="Pengecekan dengan Perintah Ping">
+                    <p>Dari hasil pengecekan bahwa :</p>
+                    <ul>
+                        <li>Pengecekan pertama ke IP 10.10.10.2 berhasil Repply, itu dikarnakan PC0 dan PC1 satu VLAN yaitu Vlan Lab1</li>
+                        <li>Pengecekan kedua ke IP 10.10.10.2 tidak berhasil atau RTO (Request Time Out), karena IP tersebut dimiliki PC3 yang tidak satu VLAN dengan PC0 dan PC1.</li>
+                    </ul>
+				</div>
+				<!-- bagian footer template -->
+				<footer>
+					<p>
+						Copyright &copy;2022 By <a href="https://bit.ly/midorinoken" style="text-decoration: none;">MidoriNoKen</a> 
+					</p> 
+				</footer>
+				<!-- akhir bagian footer template -->
+			</div>
+			<!-- akhir bagian konten Blog -->
+		</div>
+	</div>
+ 
+</body>
+</html>
